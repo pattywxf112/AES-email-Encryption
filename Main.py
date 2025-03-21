@@ -6,8 +6,6 @@ from dotenv import load_dotenv, dotenv_values
 
 load_dotenv()
 
-main file
-
 # Gmail Credentials 
 # source: https://developers.google.com/gmail/imap/imap-smtp#:~:text=Incoming%20connections%20to%20the%20IMAP,port%20587%20(for%20TLS).
 # Incoming connections to the IMAP server at imap.gmail.com:993 
