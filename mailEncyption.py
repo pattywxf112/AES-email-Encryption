@@ -8,11 +8,11 @@ import base64
 # Function to generate a strong encryption key
 def generate_key(password: str, salt: bytes):
     kdf = PBKDF2HMAC(
-        algorithm=hashes.SHA256(),
+        algorithm=hashes.SHA256(), #use SHA 256
         length=32,
         salt=salt,
         iterations=100000,
-        backend=default_backend()
+        backend=default_backend() #default_backend is from crytography
     )
     return kdf.derive(password.encode())
 
