@@ -17,3 +17,4 @@
 SMTP sending email and receiving email IMAC and POP
 - https://developers.google.com/gmail/imap/imap-smtp#:~:text=Incoming%20connections%20to%20the%20IMAP,port%20587%20(for%20TLS).
 - https://cryptography.io/en/3.4.2/hazmat/backends/
+- how to use dotenv with python https://www.youtube.com/watch?v=8dlQ_nDE7dQ

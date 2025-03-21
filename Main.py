@@ -15,6 +15,7 @@ load_dotenv()
 sender_email = "pattyworking04@gmail.com"
 receiver_email = "napatara.wan@student.mahidol.edu"
 password = os.getenv("MY_SECRET_PASSWORD")  # App Password, in google and not real password
+# https://www.youtube.com/watch?v=8dlQ_nDE7dQ
 
 # Message to encrypt
 email_text = "Wisdom of Mahidol"
