@@ -4,7 +4,8 @@
 # required library installation for python
 - pip install rsa 
 - pip install pycryptodome
-- pip install python-dotenv
+- pip install python-dotenv ( DONT FORGET TO CREATE .ENV FILE)
+
 
 # Project requirement
 1) Technology used e.g. software, programming language, algorithm, etc.  
