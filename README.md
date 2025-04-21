@@ -1,5 +1,7 @@
+## caution: this project does not have have gitignore .env, never store your private information and real password in .env
+
 # AES email Encryption
- send encrypted email and generate key with AES
+ send encrypted email and generate key with RSA, encrypt data with AES and encode with base64
 
 # required library installation for python
 - pip install rsa 
