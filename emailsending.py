@@ -31,9 +31,9 @@ def encrypt_aes_key(aes_key, public_key):
 
 # Send encrypted email with encrypted message + AES key
 def send_encrypted_email():
-    sender_email = "nagunsantisurntornkul@gmail.com"
-    receiver_email = "nagunsantisurntornkul@gmail.com"
-    email_text = "Wisdom of the Land"
+    sender_email = "your sender email one used with app password@gmail.com" #Sender email as name said,don't forget to put App password in .env file
+    receiver_email = "any email you want to receive the email@gmail.com" #Receiver email as name said
+    email_text = "Message in the email you want to send, example: Wisdom of the Land!" #Messages you want to send
 
     # Generate 256-bit AES key
     aes_key = get_random_bytes(32)

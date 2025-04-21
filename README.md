@@ -6,6 +6,16 @@
 - pip install pycryptodome
 - pip install python-dotenv ( DONT FORGET TO CREATE .ENV FILE)
 
+# Manual
+- clone this repository to your computer
+- prepare gmail account app assword and store in .env, NEVER USE YOUR OWN PERSONAL PASSWORD
+- put sender email (the gmail account used with .env file), and receiver email which could also be sender email, and the message in emailsending.py
+- take all run each programs with python, generate key pairs using genkey.py or coolergenkey.py (coolergenkey.py is easier to use)
+- store your key pair in the root foulder once generated, you can generate key pair in root foulder path.
+- run emailsending.py once you have key pairs in the root foulder. remove older key pair and generate new one if it does not work.
+- open your mail box and input ann information you want into decryption.py, it would ask your AES key, RSA private key and encrypted cipher text you want to decrypt.
+- the message is decrypted and it works like charms!
+
 
 # Project requirement
 1) Technology used e.g. software, programming language, algorithm, etc.  

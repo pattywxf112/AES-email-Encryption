@@ -1,5 +1,3 @@
-# decryption.py
-
 import rsa
 from Crypto.Cipher import AES
 import base64

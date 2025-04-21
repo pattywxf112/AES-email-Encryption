@@ -1,8 +1,5 @@
 import os
 import rsa
-import base64
-from Crypto.Cipher import AES
-from Crypto.Random import get_random_bytes
 
 # Generate RSA key pair
 def generate_keypair(bits=2048, save_path="."):
@@ -12,10 +9,10 @@ def generate_keypair(bits=2048, save_path="."):
     priv_path = os.path.join(save_path, "private_key.pem")
 
     with open(pub_path, "wb") as pub_file:
-        pub_file.write(public_key.save_pkcs1())
+        pub_file.write(public_key.save_pkcs1()) #returns the key in PKCS#1 format, a standard for encoding RSA keys.
 
     with open(priv_path, "wb") as priv_file:
-        priv_file.write(private_key.save_pkcs1())
+        priv_file.write(private_key.save_pkcs1()) #returns the key in PKCS#1 format, a standard for encoding RSA keys.
 
     print(f"\nRSA keys generated successfully:")
     print(f"Public Key: {pub_path}")
